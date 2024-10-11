@@ -1,9 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export default function Home() {
   return (
     <div className={styles.page}>
+    <SpeeeInsights/>
       <main className={styles.main}>
         <Image
           className={styles.logo}
